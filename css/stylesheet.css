@@ -1,0 +1,37 @@
+:root {
+  --main-bg-color: #24353f;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+.row {
+  box-shadow: 20px 20px 90px rgba(0, 0, 0, 0.438) !important;
+}
+
+h1 {
+  color: #17a2b8;
+}
+
+span:hover {
+  text-decoration: underline !important;
+  cursor: pointer;
+}
+
+input {
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.form-control:focus {
+  border-color: #17a2b8;
+  color: white !important;
+  background-color: transparent !important;
+}
+
+.form-control::placeholder {
+  color: rgba(255, 255, 255, 0.557);
+  opacity: 1;
+  font-size: 17px;
+}
